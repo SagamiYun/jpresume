@@ -65,16 +65,16 @@ var _hmt = _hmt || [];
     <section class="side" id="side" style="position: absolute;">
 
         <!-- 左栏固定开关，记得及时删除这段代码 Start-->
-        <!-- <label class="switch" style="display: none;" onchange="switchFixed()"> -->
-            <!-- <script type="text/javaScript"> -->
-                 <!-- function switchFixed() { -->
-                     <!-- var value = document.getElementById('side').style.position === 'fixed' ? 'absolute' : 'fixed'; -->
-                     <!-- document.getElementById('side').style.position = value; -->
-                 <!-- } -->
-             <!-- </script> -->
-            <!-- <input id="cb" type="checkbox"> -->
-            <!-- <span class="slider round"></span> -->
-        <!-- </label> -->
+        <label class="switch" style="display: none;" onchange="switchFixed()">
+            <script type="text/javaScript">
+                 function switchFixed() {
+                     var value = document.getElementById('side').style.position === 'fixed' ? 'absolute' : 'fixed';
+                     document.getElementById('side').style.position = value;
+                 }
+             </script>
+            <input id="cb" type="checkbox">
+            <span class="slider round"></span>
+        </label>
         <style>
 
             @font-face {
